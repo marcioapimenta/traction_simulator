@@ -1,2 +1,2 @@
 # traction_simulator
-Octave files to run Proposed Simulator to subway traction system
+Octave files to run a proposed simulator to subway traction system
