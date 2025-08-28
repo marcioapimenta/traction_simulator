@@ -1,0 +1,12 @@
+simulação com mudança de estado das retificadoras e redução de potência ou aumento de trens
+dependendo da tensão sobre as retificadoras, elas desligam (o valor de Rret é "forçado" para que a corrente final seja zero),
+porém o valor da fonte de corrente do modelo continua inalterado
+processo de iteração em cada instante de tempo é realizado até que todas as retificadoras não troquem de estado (ligada/desligada)
+dependendo do nível de tensão em cada trem, a corrente da fonte de corrente aumenta ou diminiu para tentar manter o nível de tensão estável
+
+os arquivos nomeados com simula.m são os utilizados para a simulação. elétrica (marcha, trafego e elétrica)
+
+os arquivos nomeados com parametrosXX.xlsx são os editáveis com as variáveis necessárias ás simulações (importados para a simulação pelos arquivos imp_dados.m)
+
+IMPORTANTE: arquivo simula.m é o principal. 
+
